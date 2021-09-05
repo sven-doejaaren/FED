@@ -40,22 +40,22 @@ https://howlongtobeat.com/
 
 #### Screenshots van de eerste pagina (small screen): 
 Homepagina  
-<img src="images/home-1.png" width="375px" alt="Eerste screenshot van de homepagina van howlongtobeat.">
-<img src="images/home-2.png" width="375px" alt="Tweede screenshot van de homepagina van howlongtobeat.">
-<img src="images/home-3.png" width="375px" alt="Derde screenshot van de homepagina van howlongtobeat.">
-<img src="images/home-4.png" width="375px" alt="Vierde screenshot van de homepagina van howlongtobeat.">
-<img src="images/home-5.png" width="375px" alt="Vijfde screenshot van de homepagina van howlongtobeat.">
-<img src="images/home-6.png" width="375px" alt="Zesde screenshot van de homepagina van howlongtobeat.">
-<img src="images/home-7.png" width="375px" alt="Zevende screenshot van de homepagina van howlongtobeat.">
+<img src="images/home-1.PNG" width="375px" alt="Eerste screenshot van de homepagina van howlongtobeat.">
+<img src="images/home-2.PNG" width="375px" alt="Tweede screenshot van de homepagina van howlongtobeat.">
+<img src="images/home-3.PNG" width="375px" alt="Derde screenshot van de homepagina van howlongtobeat.">
+<img src="images/home-4.PNG" width="375px" alt="Vierde screenshot van de homepagina van howlongtobeat.">
+<img src="images/home-5.PNG" width="375px" alt="Vijfde screenshot van de homepagina van howlongtobeat.">
+<img src="images/home-6.PNG" width="375px" alt="Zesde screenshot van de homepagina van howlongtobeat.">
+<img src="images/home-7.PNG" width="375px" alt="Zevende screenshot van de homepagina van howlongtobeat.">
 
 #### Screenshots van de tweede pagina (small screen):
 Lijst met games  
-<img src="images/lijst-1" width="375px" alt="Eerste screenshot van de lijst met games pagina.">
-<img src="images/lijst-2" width="375px" alt="Tweede screenshot van de lijst met games pagina.">
-<img src="images/lijst-3" width="375px" alt="Derde screenshot van de lijst met games pagina.">
-<img src="images/lijst-4" width="375px" alt="Vierde screenshot van de lijst met games pagina.">
-<img src="images/lijst-5" width="375px" alt="Vijfde screenshot van de lijst met games pagina.">
-<img src="images/lijst-6" width="375px" alt="Zesde screenshot van de lijst met games pagina.">
+<img src="images/lijst-1.PNG" width="375px" alt="Eerste screenshot van de lijst met games pagina.">
+<img src="images/lijst-2.PNG" width="375px" alt="Tweede screenshot van de lijst met games pagina.">
+<img src="images/lijst-3.PNG" width="375px" alt="Derde screenshot van de lijst met games pagina.">
+<img src="images/lijst-4.PNG" width="375px" alt="Vierde screenshot van de lijst met games pagina.">
+<img src="images/lijst-5.PNG" width="375px" alt="Vijfde screenshot van de lijst met games pagina.">
+<img src="images/lijst-6.PNG" width="375px" alt="Zesde screenshot van de lijst met games pagina.">
  
 </details>
 
