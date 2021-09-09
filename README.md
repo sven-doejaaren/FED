@@ -49,7 +49,7 @@ Homepagina
 <img src="images/home-7.PNG" width="375px" alt="Zevende screenshot van de homepagina van howlongtobeat.">
 
 #### Screenshot van de tweede pagina (small screen):
-Lijst met games  
+Detailpagina van een spel
 <img src="images/detailpagina.png" width="375px" alt="De detailpagina van een spel.">
  
 </details>
