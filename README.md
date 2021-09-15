@@ -92,19 +92,12 @@ samen met je groepje opstellen
 
 | Sven D      | student 2          | student 3    | student 4        |
 | ---            | ---                | ---          | ---              |
-| Mogen wij foto's
- van de website zelf
- gebruiken?  | en dit             | en ik dit    | en dan ik dat    |
-| Waar bronvermelding
-plaatsen? | dit als er tijd is | nog een punt | dit wil ik zeker |
-| Mijn searchbar
-wilt niet werken           | ...                | ...          | ...              |
-| 6 keer 'p' vervangen  |           |       |       |
-door een Ul?
-| Welk element      |       |       |       |
-gebruiken voor
-gekleurde lijn bij
-'Sample Card'?
+| Mogen wij foto's van de website zelf gebruiken?  | en dit             | en ik dit    | en dan ik dat    |
+| Waar bronvermelding plaatsen? | dit als er tijd is | nog een punt | dit wil ik zeker |
+| Mijn searchbar wilt niet werken           | ...                | ...          | ...              |
+| 6 keer 'p' vervangen door een Ul?        |       |       |        |
+| Welk element gebruiken voor gekleurde lijn bij 'Sample Card'?     |       |       |       |
+
 
 
 ### Verslag van meeting
