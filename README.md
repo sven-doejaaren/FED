@@ -77,21 +77,34 @@ Detailpagina van een spel
 
 ## Voortgang 1 (week 2)
 
-<details>
+<details open>
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+Op dit moment gaat het prima. Ik liep een beetje achter met de breakdownschetsen maar die heb ik nu afgemaakt en in HTML omgezet
+<img src="images/html-homepagina-1.PNG" width="375px" alt="HTML van mijn homepagina">
+<img src="images/website-homepagina-1.PNG" width="375px" alt="Mijn homepagina tot nu toe">
+<img src="images/html-detailpagina-1.PNG" width="375px" alt="HTML van mijn detailpagina">
+<img src="images/website-detailpagina-1.PNG" width="375px" alt="Mijn detailpagina tot nu toe">
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
+| Sven D      | student 2          | student 3    | student 4        |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Mogen wij foto's
+ van de website zelf
+ gebruiken?  | en dit             | en ik dit    | en dan ik dat    |
+| Waar bronvermelding
+plaatsen? | dit als er tijd is | nog een punt | dit wil ik zeker |
+| Mijn searchbar
+wilt niet werken           | ...                | ...          | ...              |
+| 6 keer 'p' vervangen  |           |       |       |
+door een Ul?
+| Welk element      |       |       |       |
+gebruiken voor
+gekleurde lijn bij
+'Sample Card'?
 
 
 ### Verslag van meeting
