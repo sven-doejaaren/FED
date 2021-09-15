@@ -32,7 +32,7 @@ De website responsive maken
 
 ## Je website
 
-<details open>
+<details>
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
@@ -60,17 +60,14 @@ Detailpagina van een spel
 
 ## Breakdownschets (week 1)
 
-<details>
+<details open>
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
-### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+### de home pagina: 
+<img src="images/breakdownschets-homepagina.png" width="375px" alt="HTML breakdown van de hele home pagina">
 
-### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+### de detail pagina: 
+<img src="images/breakdownschets-detailpagina.png" width="375px" alt="HTML breakdown van een detail pagina">
 
 </details>
 
