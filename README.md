@@ -103,10 +103,9 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Niet iedereen uit onze groep had voor de vergadering zijn/haar agenda en voortgang op orde
+- Desondanks heeft iedereen uit onze groep antwoorden en voorbeelden gekregen op zijn/haar vragen
+- We kunnen nu verder aan onze websites
 
 </details>
 
