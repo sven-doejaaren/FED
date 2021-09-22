@@ -3,3 +3,104 @@
   box-sizing:border-box;  
 }
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*********************/
+/* Custom properties */
+/*********************/
+:root {
+  --heading-color: #ec9444;
+}
+
+
+
+
+
+/*******************/
+/* General styling */
+/*******************/
+body {
+  font-family: Arial, "Lucida Sans Unicode";
+  line-height: 1.5;
+}
+
+button {
+  cursor: pointer;
+  font: inherit;
+}
+
+
+
+
+
+/****************/
+/* Mobile first */
+/****************/
+/* min width media queries */
+
+header ul {
+	display: grid;
+	grid-template-columns: repeat(5, 20%);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+header li {
+	list-style-type: none;
+	border-left: 1px solid rgba(0, 0, 0, 0.15);
+	text-align: center;
+	padding-top: .6em;
+}
+
+header li:first-of-type {
+  background-color: #000;
+}
+
+header a {
+  text-decoration: none;
+  color: #000;
+}
+
+header input {
+  margin: 0.5em;
+  border-radius: 0.3em;
+  width: 96%;
+  padding: 0.4em;
+  background-color: #f7f7f7;
+}
+
+
+
+
+
+section:first-child {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/achtergrond-1.jpg");
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	padding: 7em 2.5em;
+}
+
+h1 {
+	color: #fff;
+  font-size: 2em;
+}
+
+h2 {
+  color: var(--heading-color);
+}
+
+section:first-child a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	border: 1px solid;
+	padding: 5px 10px;
+}
+
+section:first-child a:first-of-type {
+	background-color: #277bbd;
+	border-color: #49B0FF;
+}
