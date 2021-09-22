@@ -123,9 +123,9 @@ Ik ben begonnen aan de css en javascript van mijn website. Op beide pagina's
 zijn de navigatie en de zoekfunctie gestijled en gemaakt. Op alleen de homepgina
 is ook de eerste sectie bijna helemaal gestijld.
 
-<img src="images/css-voort-2-1.PNG" width="375px" alt="Eerste deel van mijn css">
-<img src="images/css-voort-2-2.PNG" width="375px" alt="Tweede deel van mijn css">
-<img src="images/css-voort-2-3.PNG" width="375px" alt="Derde deel van mijn css">
+<img src="images/css-voort2-1.PNG" width="375px" alt="Eerste deel van mijn css">
+<img src="images/css-voort2-2.PNG" width="375px" alt="Tweede deel van mijn css">
+<img src="images/css-voort2-3.PNG" width="375px" alt="Derde deel van mijn css">
 <img src="images/js-voort-2.PNG" width="375px" alt="Eerste deel van mijn js">
 <img src="images/homepagina-voort2.PNG" width="375px" alt="Eerste deel van mijn homepagina">
 
