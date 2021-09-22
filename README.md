@@ -60,7 +60,7 @@ Detailpagina van een spel
 
 ## Breakdownschets (week 1)
 
-<details open>
+<details>
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de home pagina: 
@@ -77,7 +77,7 @@ Detailpagina van een spel
 
 ## Voortgang 1 (week 2)
 
-<details open>
+<details>
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
@@ -115,19 +115,28 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ## Voortgang 2 (week 3)
 
-<details>
+<details open>
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik ben begonnen aan de css en javascript van mijn website. Op beide pagina's
+zijn de navigatie en de zoekfunctie gestijled en gemaakt. Op alleen de homepgina
+is ook de eerste sectie bijna helemaal gestijld.
 
+<img src="images/css-voort-2-1.PNG" width="375px" alt="Eerste deel van mijn css">
+<img src="images/css-voort-2-2.PNG" width="375px" alt="Tweede deel van mijn css">
+<img src="images/css-voort-2-3.PNG" width="375px" alt="Derde deel van mijn css">
+<img src="images/js-voort-2.PNG" width="375px" alt="Eerste deel van mijn js">
+<img src="images/homepagina-voort2.PNG" width="375px" alt="Eerste deel van mijn homepagina">
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
+| Sven D      | student 2          | student 3    | student 4        |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+| Zijn er standaard breedtes die worden
+gebruikt voor de media queries? En zo ja,
+wat zijn deze?  | en dit             | en ik dit    | en dan ik dat    |
 | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
 | ...            | ...                | ...          | ...              |
 
