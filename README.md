@@ -144,10 +144,8 @@ wat zijn deze?  | en dit             | en ik dit    | en dan ik dat    |
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Ik heb een website gelinkt gekregen van de studentassistent waar de meest gangbare media queries/schermbreedtes te vinden zijn die nu in css worden gebruikt. Hier kan ik nu verder mee.
+- De andere studenten uit mijn groep hebben hun vragen gesteld en hebben daarop antwoord gekregen, waardoor zij ook verder kunnen met hun website.
 
 </details>
 
