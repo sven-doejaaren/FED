@@ -1,6 +1,8 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
 
 * {
@@ -13,11 +15,8 @@
 /*********************/
 :root {
   --heading-color: #ec9444;
+  --text-color: #fff;
 }
-
-
-
-
 
 /*******************/
 /* General styling */
@@ -32,26 +31,33 @@ button {
   font: inherit;
 }
 
+h1 {
+  color: #fff;
+  font-size: 2em;
+}
 
-
-
+h2 {
+  color: var(--heading-color);
+  font-size: 1.8em;
+}
 
 /****************/
-/* Mobile first */
+/* MOBILE FIRST */
 /****************/
-/* min width media queries */
-
+/**********/
+/* Header */
+/**********/
 header ul {
-	display: grid;
-	grid-template-columns: repeat(5, 20%);
-	border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 header li {
-	list-style-type: none;
-	border-left: 1px solid rgba(0, 0, 0, 0.15);
-	text-align: center;
-	padding-top: .6em;
+  list-style-type: none;
+  border-left: 1px solid rgba(0, 0, 0, 0.15);
+  text-align: center;
+  padding-top: 0.6em;
 }
 
 header li:first-of-type {
@@ -63,6 +69,16 @@ header a {
   color: #000;
 }
 
+header a:focus {
+  outline: none;
+  box-shadow: 0 0 3px #000;
+}
+
+header a:active {
+  background-color: #000;
+  color: #fff;
+}
+
 header input {
   margin: 0.5em;
   border-radius: 0.3em;
@@ -71,36 +87,622 @@ header input {
   background-color: #f7f7f7;
 }
 
+header input:focus {
+  outline: solid #277bbd;
+}
 
-
-
-
+/**************************/
+/* Title and introduction */
+/**************************/
 section:first-child {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/achtergrond-1.jpg");
-	background-size: cover;
-	background-position: center;
-	position: relative;
-	padding: 7em 2.5em;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/achtergrond-1.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 7em 2.5em;
 }
 
-h1 {
-	color: #fff;
-  font-size: 2em;
-}
-
-h2 {
-  color: var(--heading-color);
+section:first-child h2 {
+  margin-bottom: 1.2em;
+  font-size: 1.3em;
 }
 
 section:first-child a {
-	text-decoration: none;
-	color: #fff;
-	font-weight: bold;
-	border: 1px solid;
-	padding: 5px 10px;
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: bold;
+  border: 1px solid;
+  padding: 5px 10px;
 }
 
 section:first-child a:first-of-type {
-	background-color: #277bbd;
-	border-color: #49B0FF;
+  background-color: #277bbd;
+  border-color: #49b0ff;
+}
+
+section:first-child a:first-of-type:hover {
+  background-color: #fff;
+  color: #277bbd;
+}
+
+section:first-child a:first-of-type:focus {
+  outline: solid #fff;
+}
+
+section:first-child a:first-of-type:active {
+  background-color: var(--heading-color);
+}
+
+section:first-child a:last-of-type:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+section:first-child a:last-of-type:focus {
+  outline: solid #277bbd;
+}
+
+section:first-child a:last-of-type:active {
+  background-color: #e8e8e8;
+  color: #000;
+}
+
+/***************/
+/* Information */
+/***************/
+section:nth-child(2) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../images/achtergrond-2.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 7em 3em 7em 2.3em;
+}
+
+section:nth-child(2) h2 {
+  margin-left: -0.5em;
+}
+
+section:nth-child(2) ul {
+  color: var(--text-color);
+  font-size: 0.9em;
+}
+
+section:nth-child(2) li {
+  line-height: 2em;
+  list-style-type: square;
+}
+
+/*****************/
+/* Popular games */
+/*****************/
+section:nth-of-type(3) {
+  background-color: #171717;
+  padding-bottom: 5em;
+}
+
+section:nth-of-type(3) h2 {
+  margin-left: 0.6em;
+  padding-top: 1em;
+}
+
+section:nth-of-type(3) section {
+  display: grid;
+  grid-template-columns: min-content 1fr 1fr;
+  grid-template-rows: minmax(1px, 25px);
+  height: 10.7em;
+  margin: 0.5em 1em;
+  padding: 0.7em;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section:nth-of-type(3) section img {
+  grid-column: 1;
+}
+
+section:nth-of-type(3) a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: bold;
+  grid-column-start: 2;
+  grid-column-end: -1;
+}
+
+section:nth-of-type(3) a:focus {
+  outline: solid #287fc2;
+}
+
+section:nth-of-type(3) a:active {
+  border-bottom: 1px solid #fff;
+  color: #287fc2;
+}
+
+section:nth-of-type(3) p {
+  color: var(--text-color);
+  font-size: 0.8em;
+  padding-top: 0.8em;
+}
+
+/* Om ervoor te zorgen dat code later in dit document niet op dit element komen */
+section:nth-of-type(3) section:nth-of-type(5) img {
+  max-width: min-content;
+}
+
+section:nth-of-type(3) section:nth-of-type(5) p {
+  color: var(--text-color);
+  font-size: 0.8em;
+  padding-top: 0.7em;
+  background-image: none;
+  user-select: text;
+}
+
+section:nth-of-type(3) section p:nth-of-type(2n + 1) {
+  grid-column: 2;
+  margin-left: 0.3em;
+}
+
+section:nth-of-type(3) section p:nth-of-type(2n) {
+  background-color: #287fc2;
+  padding-left: 2em;
+  margin-bottom: 0.1em;
+}
+
+section:nth-of-type(3) section:first-of-type {
+  background-image: linear-gradient(rgb(31, 31, 31), rgba(31, 31, 31, 0.9)),
+    url("../images/games-1.png");
+}
+
+section:nth-of-type(3) section:nth-of-type(2) {
+  background-image: linear-gradient(rgb(31, 31, 31), rgba(31, 31, 31, 0.9)),
+    url("../images/games-2.png");
+}
+
+section:nth-of-type(3) section:nth-of-type(3) {
+  background-image: linear-gradient(rgb(31, 31, 31), rgba(31, 31, 31, 0.9)),
+    url("../images/games-3.png");
+}
+
+section:nth-of-type(3) section:nth-of-type(4) {
+  background-image: linear-gradient(rgb(31, 31, 31), rgba(31, 31, 31, 0.9)),
+    url("../images/games-4.png");
+}
+
+section:nth-of-type(3) section:nth-of-type(5) {
+  background-image: linear-gradient(rgb(31, 31, 31), rgba(31, 31, 31, 0.9)),
+    url("../images/games-5.png");
+}
+
+section:nth-of-type(3) section:nth-of-type(6) {
+  background-image: linear-gradient(rgb(31, 31, 31), rgba(31, 31, 31, 0.9)),
+    url("../images/games-6.png");
+}
+
+section:nth-of-type(3) section:nth-of-type(5) p:nth-of-type(2n) {
+  border-radius: 0;
+  height: 3.12em;
+}
+
+section:nth-of-type(3) section:nth-of-type(5) p:last-of-type {
+  position: static;
+}
+
+section:nth-of-type(3) section:last-of-type p {
+  font-size: 0.8em;
+}
+
+/*********/
+/* Steam */
+/*********/
+section:nth-of-type(4) {
+  background-image: linear-gradient(
+      rgba(31, 31, 31, 0.5),
+      rgba(31, 31, 31, 0.5)
+    ),
+    url("../images/index_steam.png");
+  padding: 6em 1em;
+  background-position: bottom right;
+}
+
+section:nth-of-type(4) h2 {
+  color: var(--text-color);
+}
+
+section:nth-of-type(4) input {
+  width: 100%;
+  padding: 0.5em 0.7em;
+  font-size: 0.9em;
+}
+
+section:nth-of-type(4) input:focus {
+  outline: solid #287fc2;
+}
+
+section:nth-of-type(4) button {
+  background-color: #277bbd;
+  border: 1px solid #49b0ff;
+  color: var(--text-color);
+  padding: 0.5em;
+  margin-top: 0.6em;
+  font-weight: bold;
+}
+
+section:nth-of-type(4) button:focus {
+  outline: solid #fff;
+}
+
+section:nth-of-type(4) button:active {
+  background-color: var(--heading-color);
+  color: #000;
+}
+
+/***************/
+/* Sample Card */
+/***************/
+section:nth-of-type(5) {
+  margin: 5em 1.1em;
+  position: relative;
+}
+
+section:nth-of-type(5) h2 {
+  color: #444;
+}
+
+section:nth-of-type(5) img {
+  max-width: 100%;
+}
+
+section:nth-of-type(5) p {
+  color: #484848;
+  font-size: 0.9em;
+}
+
+section:nth-of-type(5) h3 {
+  font-size: 1.3em;
+  color: #484848;
+}
+
+section:nth-of-type(5) p:nth-of-type(2) {
+  color: transparent;
+  user-select: none;
+  background: linear-gradient(
+    to right,
+    #ff3a3a 0 14%,
+    #cc3b51 14% 28%,
+    #824985 28% 42%,
+    #5650a1 42% 56%,
+    #485cab 56% 70%,
+    #3a6db5 70% 84%,
+    #287fc2 84% 100%
+  );
+  height: 0.3em;
+  border-radius: 10%;
+}
+
+section:nth-of-type(5) p:last-child {
+  position: absolute;
+  right: 0;
+  bottom: 0.05em;
+}
+
+/************************************/
+/* Manage lists (create an account) */
+/************************************/
+section:nth-of-type(6) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../images/tv_kentucky_route_zero.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 5em 1em;
+}
+
+section:nth-of-type(6) h2 {
+  font-size: 1.3em;
+}
+
+section:nth-of-type(6) strong,
+section:nth-of-type(6) p {
+  color: var(--text-color);
+}
+
+section:nth-of-type(6) h3 {
+  font-size: 0.9em;
+  margin-top: 1.5em;
+}
+
+section:nth-of-type(6) h3:first-of-type {
+  color: #2577b6;
+}
+
+section:nth-of-type(6) h3:nth-of-type(2) {
+  color: #208e82;
+}
+
+section:nth-of-type(6) h3:nth-of-type(3) {
+  color: #934b93;
+}
+
+section:nth-of-type(6) h3:last-of-type {
+  color: #cb3a3b;
+}
+
+section:nth-of-type(6) p {
+  font-size: 0.9em;
+}
+
+/**********/
+/* Footer */
+/**********/
+footer {
+  padding: 0 1em;
+}
+
+footer h3 {
+  color: #484848;
+  font-size: 1em;
+  margin-top: 1.5em;
+}
+
+footer li {
+  list-style-type: none;
+  line-height: 1.2em;
+}
+
+footer a {
+  color: #2577b6;
+  text-decoration: none;
+  font-size: 0.8em;
+}
+
+footer a:focus {
+  text-decoration: underline;
+}
+
+footer a:active {
+  color: var(--text-color);
+  background-color: #2577b6;
+}
+
+footer p {
+  font-size: 0.8em;
+}
+
+footer p:last-child {
+  padding-bottom: 2em;
+}
+
+/****************/
+/* Detailpagina */
+/****************/
+.detail section:first-of-type {
+  background-image: linear-gradient(
+      rgba(50, 142, 214, 0.7),
+      rgba(50, 142, 214, 0.95)
+    ),
+    url(../images/SSX_3_Coverart.png);
+  text-align: center;
+  padding: 2em 1em;
+}
+
+.detail section:first-of-type li {
+  list-style-type: none;
+}
+
+.detail section:first-of-type ul:first-of-type {
+  color: var(--text-color);
+}
+
+.detail section:first-of-type ul:first-of-type li {
+  background: rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  padding: 0.2em 0.4em;
+  margin: 0 0.2em 0.2em 0;
+  font-size: 0.9em;
+}
+
+.detail section:first-of-type ul:last-of-type {
+  background: rgba(0, 0, 0, 0.2);
+  color: var(--text-color);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  overflow-x: scroll;
+  margin-top: 1em;
+  border-radius: 0.4em;
+  font-weight: bold;
+  display: flex;
+}
+
+.detail section:first-of-type ul:last-of-type li {
+  font-weight: bold;
+  line-height: 2.8em;
+  padding: 0 0.5em;
+  flex-shrink: 0;
+}
+
+.detail section:first-of-type ul:last-of-type li:first-of-type {
+  background-color: #333;
+}
+
+/*****************/
+/* Detail knop en tijden */
+/*****************/
+.detail section:nth-of-type(2) {
+  background-image: none;
+  background-color: #e8e8e8;
+  padding: 0;
+}
+
+.detail section:nth-of-type(2) section {
+  background-image: none;
+  padding: 0.5em;
+}
+
+.detail section:nth-of-type(2) section a {
+  background-color: #333333;
+  border: none;
+  color: #ec9444;
+  width: 100%;
+  display: block;
+  padding: 0.5em 0;
+  border-radius: 0.3em;
+}
+
+.detail section:nth-of-type(2) section a:hover {
+  color: #333333;
+  background-color: #ec9444;
+}
+
+.detail section:nth-of-type(2) section a:focus {
+  outline: solid #2577b6;
+}
+
+.detail section:nth-of-type(2) section a:active {
+  background-color: #fff;
+  color: #000;
+}
+
+/* ul:first-of-type omdat onderstaande code anders wordt overschreven */
+.detail section:nth-of-type(2) section ul:first-of-type {
+  background: none;
+  overflow-x: visible;
+  border: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 0.5em;
+}
+
+.detail section:nth-of-type(2) section ul:first-of-type li {
+  margin: 0;
+}
+
+.detail section:nth-of-type(2) section ul:first-of-type li:first-of-type,
+.detail section:nth-of-type(2) section ul:first-of-type li:nth-of-type(2) {
+  background-color: #824985;
+}
+
+.detail section:nth-of-type(2) section ul:first-of-type li:nth-of-type(3) {
+  background-color: #ff3a3a;
+}
+
+.detail section:nth-of-type(2) section ul:first-of-type li:last-of-type {
+  background-color: #3a6db5;
+}
+
+.detail section:nth-of-type(2) section ul:first-of-type h3,
+.detail section:nth-of-type(2) section ul:first-of-type p {
+  text-align: left;
+  font-weight: normal;
+}
+
+.detail section:nth-of-type(2) section ul:first-of-type h3 {
+  font-size: 1.2em;
+}
+
+.detail section:nth-of-type(2) section ul:first-of-type p {
+  border-top: 1px solid #fff;
+  font-size: 1.5em;
+}
+
+/*****************/
+/* Detail uitleg */
+/*****************/
+.detail section:nth-of-type(2) section section {
+  background-color: #fff;
+  border-radius: 0.3em;
+  margin-top: 0.5em;
+  padding: 0.6em;
+}
+
+.detail section:nth-of-type(2) section section p {
+  text-align: left;
+  font-size: 0.9em;
+  line-height: 1.3em;
+}
+
+.detail section:nth-of-type(2) section section p:nth-of-type(2n) {
+  font-weight: bold;
+}
+
+.detail section:nth-of-type(2) section section a {
+  background-color: transparent;
+  color: #2577b6;
+  border: none;
+  font-weight: normal;
+  display: inline;
+}
+
+/**************************/
+/* Tabel met statestieken */
+/**************************/
+.detail section:nth-of-type(2) table:first-of-type {
+  background-color: #fff;
+  border-radius: 0.3em;
+  padding: 0.6em;
+  margin: 0 0.5em;
+  overflow-x: scroll;
+}
+
+.detail section:nth-of-type(2) table:first-of-type td {
+  border-top: 1px solid gray;
+}
+
+.detail section:nth-of-type(2) table:first-of-type td:nth-of-type(2) {
+  color: #ff3a3a;
+}
+
+.detail
+  section:nth-of-type(2)
+  table:first-of-type
+  tr:first-of-type
+  td:nth-of-type(2) {
+  color: #cc3b51;
+}
+
+.detail
+  section:nth-of-type(2)
+  table:first-of-type
+  tr:nth-of-type(2)
+  td:nth-of-type(2) {
+  color: #5650a1;
+}
+
+.detail section:nth-of-type(2) table:last-of-type {
+  background-color: #fff;
+  padding: 0.6em;
+  margin: 0 0.5em;
+}
+
+.detail section:nth-of-type(2) table:last-of-type tbody {
+  background-color: #f7f7f7;
+}
+
+.detail
+  section:nth-of-type(2)
+  table:last-of-type
+  tr:first-of-type
+  td:nth-of-type(2) {
+  background: linear-gradient(to right, #a637de 0% 15%, transparent 15% 100%);
+  color: transparent;
+}
+
+.detail
+  section:nth-of-type(2)
+  table:last-of-type
+  tr:nth-of-type(2)
+  td:nth-of-type(2) {
+  background: linear-gradient(to right, #6a6f97 0% 50%, transparent 50% 100%);
+}
+
+.detail
+  section:nth-of-type(2)
+  table:last-of-type
+  tr:nth-of-type(3)
+  td:nth-of-type(2) {
+  background: linear-gradient(to right, #5b9bcc 0% 100%);
+}
+
+.detail
+  section:nth-of-type(2)
+  table:last-of-type
+  tr:nth-of-type(4)
+  td:nth-of-type(2) {
+  background: linear-gradient(to right, #39af0c 0% 25%, transparent 25% 100%);
 }
