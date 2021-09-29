@@ -255,11 +255,11 @@ Ik zou de linkjes groter kunnen maken en kijken of dat er goed uitziet op de web
 
 //Afbeelding
 
-</details open>
+</details>
 
 ## Voortgang 3 (week 4)
 
-<details>
+<details open>
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
