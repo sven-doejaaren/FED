@@ -275,11 +275,11 @@ Ik ben nog niet begonnen aan het responsive maken van beide pagina's.
 
 samen met je groepje opstellen
 
-| Sven D                      | student 2          | student 3    | student 4        |
-| --------------------------- | ------------------ | ------------ | ---------------- |
-| Hover op a tags werken niet | en dit             | en ik dit    | en dan ik dat    |
-|                             | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...                         | ...                | ...          | ...              |
+| Sven D                                             | student 2          | student 3    | student 4        |
+| -------------------------------------------------- | ------------------ | ------------ | ---------------- |
+| Hover op a tags werken niet                        | en dit             | en ik dit    | en dan ik dat    |
+| Hoe kan ik een tabel een horizontale scroll geven? | dit als er tijd is | nog een punt | dit wil ik zeker |
+| ...                                                | ...                | ...          | ...              |
 
 ### Verslag van meeting
 
