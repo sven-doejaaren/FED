@@ -7,7 +7,6 @@ zoek.addEventListener("keyup", function(event) {
             window.location.href = "detail.html";
         } else {
             console.log("boe");
-            // micro-interactie "Spel niet gevonden" tekst oid
             document.getElementsByName('search')[0].placeholder='Spel niet gevonden. Probeer opnieuw';
         }
     }
