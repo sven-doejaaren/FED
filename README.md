@@ -55,7 +55,7 @@ Detailpagina van een spel
 
 ## Breakdownschets (week 1)
 
-<details>
+<details open>
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de home pagina:
@@ -70,7 +70,7 @@ Detailpagina van een spel
 
 ## Voortgang 1 (week 2)
 
-<details>
+<details open>
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
@@ -105,7 +105,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ## Voortgang 2 (week 3)
 
-<details>
+<details open>
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
@@ -185,7 +185,7 @@ Toevallig staan bovenstaande elementen allemaal in een 'a' tag.
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
-Geen idee.
+Geen idee hoe, maar het werkt zonder dat ik er iets aan heb veranderd.
 
 #### Geen volledige hover state.
 
@@ -197,7 +197,7 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 
 De hover pseudo-class aan de linkjes, knoppen en het invoerveld toevoegen.
 
-// afbeelding van a:hover css code
+<img src="images/usability-4.png" max-width="375px" alt="Screenshot van de hover pseudo-class">
 
 #### Geen visited state
 
@@ -205,23 +205,19 @@ Ik heb nergens een visited state toegevoegd. Ik was vergeten dat die bestond.
 
 Ik kan dit oplossen door het :visited pseudo-class aan de linkjes en knoppen toe te voegen.
 
-// afbeelding van hierboven genoemde
-
 #### Plaatjes niet meegelezen
 
 De plaatjes bij 'Popular Games' worden niet door de screenreaders meegelezen.
 
 Ik moet, net zoals op de originele site, de plaatjes in een link zetten. Hierdoor kunnen de plaatjes wel worden meegelezen.
 
-//Afbeelding
+<img src="images/usability-7.png" max-width="375px" alt="Screenshot van de html code link om plaatje heen">
 
 #### Teksten zijn niet overal even goed te lezen
 
 Niet alle teksten kunnen goed worden gelezen als ik een bril draag waarin verschillende visuele beperkingen worden gesimuleerd.
 
 Ik zou kunnen kijken of ik de letters groter zou kunnen maken en of dat er goed uitziet op de website.
-
-// Afbeelding
 
 #### Nav niet genoeg klikbaar
 
@@ -233,7 +229,7 @@ De vakjes waar zij in staan zijn zo groot vanwege de grootte van de logo.
 
 Ik zou de padding van de linkjes kunnen vergroten en kijken of dat werkt.
 
-// Afbeelding?
+<img src="images/usability-5.png" max-width="375px" alt="Screenshot van de padding property">
 
 #### Search bar misschien te klein
 
@@ -243,7 +239,7 @@ De zoekbalk is wellicht te klein om op te klikken. Dit kan problematisch zijn vo
 
 Ik zou de zoekbalk groter kunnen maken en kijken of dat er goed uitziet op de website.
 
-// Afbeelding?
+<img src="images/usability-6.png" max-width="375px" alt="Screenshot van de padding property">
 
 #### Footer links misschien te klein?
 
@@ -252,8 +248,6 @@ De linkjes in de footer zijn wellicht te klein en dit kan problematisch zijn voo
 <img src="images/usability-3.png" width="375px" alt="Screenshot van de linkjes in de footer">
 
 Ik zou de linkjes groter kunnen maken en kijken of dat er goed uitziet op de website.
-
-//Afbeelding
 
 </details>
 
@@ -285,25 +279,37 @@ samen met je groepje opstellen
 
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- De hover op de a tags werkten ineens wel weer zonder dat ik daar iets aan had gedaan.
+- Ik moet een 'div' tag om de tabel heen gebruiken voor de styling van de tabel om zo de tabel een horizontale scroll te geven.
 
 </details>
 
 ## Eindgesprek (week 5)
 
-<details>
+<details open>
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
 
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik ben sinds het laatste voortgangsgesprek bezig geweest met beide pagina's responsive maken.
+
+<img src="images/eind-1.png" width="375px" alt="Screenshot van css media query code">
+<img src="images/eind-2.png" width="375px" alt="Screenshot van css media query code">
+
+Helaas is het mij alleen niet helemaal gelukt om alles volledig responsive te krijgen. Met name de detailpagina bleek nogal een uitdaging te zijn die mij niet helemaal is gelukt.
 
 ### Screenshot(s)
 
 hier screenshot(s) van je eindresultaat
+Home:
+<img src="images/eind-mobiel.png" width="375px" alt="Screenshot van mijn homepagina in mobiele versie">
+<img src="images/eind-tablet.png" width="375px" alt="Screenshot van mijn homepagina in tablet versie">
+<img src="images/eind-desktop.png" width="375px" alt="Screenshot van mijn homepagina in desktop versie">
+
+Detail:
+<img src="images/eind-mobiel-detail.png" width="375px" alt="Screenshot van mijn detailpagina in mobiele versie">
+<img src="images/eind-tablet-detail.png" width="375px" alt="Screenshot van mijn detailpagina in tablet versie">
+<img src="images/eind-desktop-detail.png" width="375px" alt="Screenshot van mijn detailpagina in desktop versie">
 
 </details>
 
@@ -314,8 +320,11 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. De homepagina die ik moet namaken: https://howlongtobeat.com/
+2. De detailpagina die ik moet namaken: https://howlongtobeat.com/game?id=9018
+3. Uitleg over CSS grid: https://css-tricks.com/snippets/css/complete-guide-grid/
+4. Uitleg over media queries: https://devfacts.com/media-queries-breakpoints-2021/
+5. Uitleg over nth-child mogelijkheden: https://css-tricks.com/useful-nth-child-recipies/
+6. Tips over states: https://zellwk.com/blog/style-hover-focus-active-states/
 
 </details>
