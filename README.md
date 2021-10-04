@@ -293,8 +293,8 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 Ik ben sinds het laatste voortgangsgesprek bezig geweest met beide pagina's responsive maken.
 
-<img src="images/eind-1.png" width="375px" alt="Screenshot van css media query code">
-<img src="images/eind-2.png" width="375px" alt="Screenshot van css media query code">
+<img src="images/eind-1.PNG" width="375px" alt="Screenshot van css media query code">
+<img src="images/eind-2.PNG" width="375px" alt="Screenshot van css media query code">
 
 Helaas is het mij alleen niet helemaal gelukt om alles volledig responsive te krijgen. Met name de detailpagina bleek nogal een uitdaging te zijn die mij niet helemaal is gelukt.
 
